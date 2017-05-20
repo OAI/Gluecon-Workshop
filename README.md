@@ -8,7 +8,7 @@
 
 ## What's different
 - [Components](./Different/components.md)
-- [Servers](./Difference/servers.md)
+- [Servers](./Different/servers.md)
 - Parameter Schema/Style/Content
 - RequestBody
  
