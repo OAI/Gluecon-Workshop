@@ -6,29 +6,29 @@
 - We are still focused on HTTP APIs
 - OpenAPI tells you what you can do, not what you can't
 
-## [What's different](./Different/different.md)
-- Components
+## What's different
+- [Components](./Different/components.md)
 - Servers
 - Parameter Schema/Style/Content
 - RequestBody
  
-## [What's fixed](./Fixed/fixed.md)
+## What's fixed
 - File
 - Forms
 - Relative URLs
  
-## [What's improved](./Improved/improved.md)
+## What's improved
 - SecuritySchemes
 - Examples
 - JSON Schema (anyOf, allOf, nullable)
 - URI parameter style
 - Path Descriptions
  
-## [What's new](./New/new.md)
+## What's new
 - Links
 - Callbacks
  
-## [Experiments](./Experiments/experiments.md)
+## Experiments
 - Reusable groups
 - Alternate schemas
 - Support for protocols on top of HTTP
