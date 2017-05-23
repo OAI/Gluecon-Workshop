@@ -16,7 +16,7 @@
 ## What's fixed
 - [File](./Different/file.md)
 - Forms
-- Relative URLs
+- [Relative URLs](./Different/relativeurls.md)
  
 ## What's improved
 - SecuritySchemes
