@@ -18,7 +18,7 @@
 - [Relative URLs](./Fixed/relativeurls.md)
  
 ## What's improved
-- SecuritySchemes
+- [SecuritySchemes](./Improved/securityschemes.md)
 - Examples
 - JSON Schema (anyOf, allOf, nullable)
 - Path Descriptions
