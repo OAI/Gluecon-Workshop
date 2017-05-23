@@ -6,7 +6,6 @@
 - We are still focused on HTTP APIs
 - OpenAPI tells you what you can do, not what you can't
 
-
 ## What's different
 - [Components](./Different/components.md)
 - [Servers](./Different/servers.md)
@@ -22,11 +21,11 @@
 - SecuritySchemes
 - Examples
 - JSON Schema (anyOf, allOf, nullable)
-- URI parameter style
 - Path Descriptions
+- Servers everywhere
  
 ## What's new
-- Links
+- [Links](.New/links.md)
 - [Callbacks](./New/callbacks.md)
  
 ## Experiments
