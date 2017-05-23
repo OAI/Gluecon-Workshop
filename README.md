@@ -10,11 +10,11 @@
 ## What's different
 - [Components](./Different/components.md)
 - [Servers](./Different/servers.md)
-- [Parameters](/Different/parameters.md) 
-- [RequestBody](/Different/requestbody.md)
+- [Parameters](./Different/parameters.md) 
+- [RequestBody](./Different/requestbody.md)
  
 ## What's fixed
-- File
+- [File](./Different/file.md)
 - Forms
 - Relative URLs
  
