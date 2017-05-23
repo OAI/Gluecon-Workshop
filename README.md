@@ -9,8 +9,8 @@
 ## What's different
 - [Components](./Different/components.md)
 - [Servers](./Different/servers.md)
-- Parameter Schema/Style/Content
-- RequestBody
+- Parameters 
+- [RequestBody](/Different/requestbody.md)
  
 ## What's fixed
 - File
