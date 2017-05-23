@@ -13,9 +13,9 @@
 - [RequestBody](./Different/requestbody.md)
  
 ## What's fixed
-- [File](./Different/file.md)
-- Forms
-- [Relative URLs](./Different/relativeurls.md)
+- [File](./Fixed/file.md)
+- [Forms](./Fixed/multipart.md)
+- [Relative URLs](./Fixed/relativeurls.md)
  
 ## What's improved
 - SecuritySchemes

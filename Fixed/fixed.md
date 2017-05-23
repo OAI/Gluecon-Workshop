@@ -1,1 +1,0 @@
-# Fixes in OpenAPI V3
