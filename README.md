@@ -10,7 +10,7 @@
 ## What's different
 - [Components](./Different/components.md)
 - [Servers](./Different/servers.md)
-- Parameters 
+- [Parameters](/Different/parameters.md) 
 - [RequestBody](/Different/requestbody.md)
  
 ## What's fixed
