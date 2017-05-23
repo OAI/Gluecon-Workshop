@@ -1,4 +1,4 @@
-# Gluecon-Workshop
+# Gluecon OpenAPI V3 Workshop
 
 ## The Tao of OpenAPI
 - We still have opinions
