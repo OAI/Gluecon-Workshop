@@ -6,6 +6,7 @@
 - We are still focused on HTTP APIs
 - OpenAPI tells you what you can do, not what you can't
 
+
 ## What's different
 - [Components](./Different/components.md)
 - [Servers](./Different/servers.md)
@@ -29,7 +30,9 @@
 - Callbacks
  
 ## Experiments
-- Reusable groups
+- [Reusable groups](./Experiments/GroupRef.yml)
 - Alternate schemas
 - Support for protocols on top of HTTP
 - Support for protocols other than HTTP
+- [Operation Versioning](./Experiments/OperationVersioning.yaml)
+- [Dynamic Enums](./Experiments/dynamicValues.yaml)
