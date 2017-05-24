@@ -7,7 +7,7 @@ Links are a new mechanism in V3 that allows an API designer to describe relation
 ## Motivation
 There are two primary benefits to this feature.  Client generators are able to create client object models that can simplify the process of traversing a graph of objects.  Sometimes it is not desirable to retrieve an entire subtree in a single operation and higher level node needs to be accessed to determine if further requests are necessary. 
 
-The other api artifact that can be improved with links is documentation.  Current API documentation based on OpenAPI v2 is limited to being a flat list of operations that can be grouped by path or by tag.  By using links to connect related operations users should be able to navigate to the documentation of operations that are related.  This should make it easier to produce documentation that is more use-case friendly rather than being simply reference documentation.
+The other API artifact that can be improved with links is documentation.  Current API documentation based on OpenAPI v2 is limited to being a flat list of operations that can be grouped by path or by tag.  By using links to connect related operations, users should be able to navigate to the documentation of those operations.  This should make it easier to produce documentation that is more use-case friendly rather than being simply reference documentation.
 
 ## The simplest link
 

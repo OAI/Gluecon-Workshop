@@ -2,7 +2,7 @@
 
 The Schema Object has expanded JSON Schema support, with additional extentions for the OpenAPI Specification.
 
-* Some of the examples are taken from https://spacetelescope.github.io/understanding-json-schema/reference/combining.html
+-- Some of the examples are taken from https://spacetelescope.github.io/understanding-json-schema/reference/combining.html
 
 ## `anyOf`
 
