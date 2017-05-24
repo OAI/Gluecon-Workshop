@@ -1,5 +1,6 @@
 # Examples
-
+There have been a variety of changes to the way Examples are defined in OpenAPIV3.  Examples for request and response bodies are now defined with a media type object inside a content object and therefore there is no longer need for the Examples map that used the media type identifier as a key. 
+Within a content object there are two options for defining an example. The quick way and the long way.  The quick way is a simple `example` property where the value is a literal example.  The long way uses an `example object` which has a richer set of properties.  With an `example object` the example has an identifer uses as the map key.  There are summary and description properties and the example value can point too an example defined elsewhere.
 
 # Multiple Media Types and Multiple Examples
 
