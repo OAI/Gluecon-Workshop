@@ -2,7 +2,7 @@
 
 ## The simple Webhook
 
-In this example api, the operation allows a client to subscribe to a webhook by POSTing a JSON representation that has the callback URL as a property of the response body.  The operation has a `callback` object called `mainHook` that describes the HTTP request that will be made when the webhook is triggered by the origin server.
+In this example API, the operation allows a client to subscribe to a webhook by POSTing a JSON representation that has the callback URL as a property of the response body.  The operation has a `callback` object called `mainHook` that describes the HTTP request that will be made when the webhook is triggered by the origin server.
 
 ```yaml
 openapi : 3.0.0
