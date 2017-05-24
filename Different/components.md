@@ -10,10 +10,9 @@ openapi: 3.0.0
 info:
   title: Example usage of components
   version: 1.0.0
-paths:
+paths: {}
 
 components:
-
   parameters:  # Not global parameters
     limit:
       name: limit
