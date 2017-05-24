@@ -30,7 +30,7 @@
  
 ## Experiments
 - [Reusable groups](./Experiments/GroupRef.yml)
-- Alternate schemas
+- [Alternate schemas](./Experiements/alternateschemas.md)
 - Support for protocols on top of HTTP
 - Support for protocols other than HTTP
 - [Operation Versioning](./Experiments/OperationVersioning.yaml)
