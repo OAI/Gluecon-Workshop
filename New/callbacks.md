@@ -28,8 +28,6 @@ paths:
         mainHook:
           '$request.body#/url':
             post:
-              requestBody:
-                required: false
               responses:
                 '200':
                   description: webhook successfully processed
