@@ -25,13 +25,11 @@
 - [Servers everywhere](./Improved/serverseverywhere.md)
  
 ## What's new
-- [Links](.New/links.md)
+- [Links](./New/links.md)
 - [Callbacks](./New/callbacks.md)
  
 ## Experiments
 - [Reusable groups](./Experiments/GroupRef.yml)
 - [Alternate schemas](./Experiements/alternateschemas.md)
-- Support for protocols on top of HTTP
-- Support for protocols other than HTTP
 - [Operation Versioning](./Experiments/OperationVersioning.yaml)
 - [Dynamic Enums](./Experiments/dynamicValues.yaml)
