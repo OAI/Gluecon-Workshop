@@ -44,7 +44,7 @@ info:
   version: 1.0.0
 components:
   securitySchemes:
-    my-oauth2:
+    myOauth2:
       type: oauth2
       flows: 
         implicit:
@@ -59,10 +59,10 @@ components:
           scopes:
             write:pets: modify pets in your account
             read:pets: read your pets
-    my-openIdConnect:
+    myOpenIdConnect:
       type: openIdConnect
       openIdConnectUrl: https://example.com/.well-known/openid-connect
 security:
-- my-oauth2: []
-- my-openIdConnect : []
+- myOauth2: []
+- myOpenIdConnect: []
 ```
