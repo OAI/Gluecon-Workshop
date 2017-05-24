@@ -64,5 +64,5 @@ components:
       openIdConnectUrl: https://example.com/.well-known/openid-connect
 security:
 - myOauth2: []
-- myOpenIdConnect : []
+- myOpenIdConnect: []
 ```
