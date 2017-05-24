@@ -35,7 +35,7 @@ paths:
         text/plain:
           I think the V3 way is cleaner
 ```
-In OpenAPIV3 each operation that is allowed to have a body, can include a `requestBody` object which contains a `content` object that describes the details of the payload.  The same `content` object is used to describe `responses` which makes the description of payloads more consistent.
+In OpenAPI V3, each operation that is allowed to have a body, can include a `requestBody` object which contains a `content` object that describes the details of the payload.  The same `content` object is used to describe `responses` which makes the description of payloads more consistent.
 
 ```yaml
 openapi: 3.0.0
