@@ -22,7 +22,7 @@
 - [Examples](./Improved/examples.md)
 - [Schema Object (anyOf, allOf, nullable)](./Improved/schemaobject.md)
 - [Path Descriptions](./Improved/pathdescriptions.md)
-- Servers everywhere
+- [Servers everywhere](./Improved/serverseverywhere.md)
  
 ## What's new
 - [Links](.New/links.md)
