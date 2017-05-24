@@ -2,7 +2,7 @@
 
 ## The simple Webhook
 
-In this example api, an operation is described that allows a clinet to subscribe to a webhook by POSTing a JSON representation that has the callback URL as a property of the body.  The operation has a `callback` object called `mainHook` that describes the HTTP request that will be made when the webhook is triggered by the origin server.
+In this example api, the operation allows a client to subscribe to a webhook by POSTing a JSON representation that has the callback URL as a property of the response body.  The operation has a `callback` object called `mainHook` that describes the HTTP request that will be made when the webhook is triggered by the origin server.
 
 ```yaml
 openapi : 3.0.0
@@ -22,7 +22,7 @@ paths:
                   type: string
                   format: uri 
       responses:
-        201:
+        '201':
           description: Created subscription to webhook
       callbacks:
         mainHook:
@@ -31,7 +31,7 @@ paths:
               requestBody:
                 required: false
               responses:
-                200:
+                '200':
                   description: webhook successfully processed
 ```
 
@@ -55,7 +55,7 @@ paths:
             example:
               callback-url: https://consumer.com/hookcallback
       responses:      
-        201:
+        '201':
           description: Successfully subscribed
           content:
             application/json:
@@ -76,7 +76,7 @@ paths:
                     example:
                       message: Here is the event
               responses:
-                200:
+                '200':
                   description: Expected responses from callback consumer
   /hooks/{id}:
     delete:
@@ -87,7 +87,7 @@ paths:
         schema: 
           type: string
       responses:
-        200:
+        '200':
           description: Successfully cancelled callback
 
 ```
