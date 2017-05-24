@@ -19,9 +19,9 @@
  
 ## What's improved
 - [SecuritySchemes](./Improved/securityschemes.md)
-- Examples
+- [Examples](./Improved/examples.md)
 - JSON Schema (anyOf, allOf, nullable)
-- Path Descriptions
+- [Path Descriptions](./Improved/pathdescriptions.md)
 - Servers everywhere
  
 ## What's new
