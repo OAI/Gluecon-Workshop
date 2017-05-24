@@ -26,9 +26,13 @@ paths:
                   type: string
                 postcode:
                   type: string
+                tags:
+                  type: array
+                  items:
+                    type: string
       responses:
         '200':
-          description: Success!
+          description: Great Success!
 ```
 
 ## Multipart content
@@ -78,4 +82,4 @@ paths:
           description: Success!
 ```
 
-The encoding object also enables declaring HTTP headers that are associated to the part.
+The encoding object also enables declaring HTTP headers that are associated to the part, and can even affect serialization of `application/x-www-urlencoded-form` parameters.
