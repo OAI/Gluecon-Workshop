@@ -1,6 +1,6 @@
 # Request Body
 
-In OpenAPI V2, request bodies were defined as a type of parameter. In V3 they are a distinct object with their own set of rules
+In OpenAPI V2, request bodies were defined as a type of parameter. In V3 they are a distinct object with their own set of rules.
 
 ## Motivation
 
@@ -11,7 +11,7 @@ Although in V2 request bodies were a parameter they had their own distinct set o
 
 Request bodies that were `application/x-www-urlencoded-form` were handled inconsistently than other media types.
 
-The Request body object models the fact that HTTP treats request bodies significantly differently than URI parameters and header values.
+The Request Body Object models the fact that HTTP treats request bodies significantly differently than URI parameters and header values.
 
 ## OpenAPI V2
 

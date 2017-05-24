@@ -4,7 +4,7 @@ In OpenAPI V2 the Schema Object supported schemas with `type` equal to `file`.  
 
 ## Motivation
 
-Numerous users of OpenAPI have expressed their desire to use standard JSON Schema libraries to do some validation based on schemas in OpenAPI documents.  The existence of the `file` type caused standard JSON Schema validation libraries to fail.  Now with the removal of this, it should no longer be a problem
+Numerous users of OpenAPI have expressed their desire to use standard JSON Schema libraries to do some validation based on schemas in OpenAPI documents.  The existence of the `file` type caused standard JSON Schema validation libraries to fail.  Now with the removal of this, it should no longer be a problem.
 
 ## Describing a file payload in OpenAPI v3
 
@@ -25,8 +25,8 @@ paths:
         content:
           application/octet-stream:
             schema:
-              type: object
+              type: string
               format: binary
 ``` 
 
-Using the `type` as `object` and `format` as `binary` is the functional equivalent of the `file` type. 
+Using the `type` as `string` and `format` as `binary` is the functional equivalent of the `file` type. 
