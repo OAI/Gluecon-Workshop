@@ -2,7 +2,7 @@
 Components is a new root level object used to contain reusable objects.
 
 ## Motivation
-In Swagger V2 some top level objects applied globally and some were there only for re-use.  This often caused confusion.  Now the `components` object only contains re-usable stuff.  Unless referenced, the contents of `components` has no impact on the API. 
+In OpenAPI V2 some top level objects applied globally and some were there only for re-use.  This often caused confusion.  Now the `components` object only contains re-usable stuff.  Unless referenced, the contents of `components` has no impact on the API. 
 
 
 ```yaml
