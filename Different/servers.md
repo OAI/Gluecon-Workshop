@@ -31,7 +31,7 @@ servers:
 - url: https://prod.acme.com/api
 - url: https://sandbox.acme.com/api
 
-paths:
+paths: {}
 ```
 
 ## Templated Servers

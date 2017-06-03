@@ -21,7 +21,7 @@ paths: {}
 components:
   parameters:
     top: 
-      $ref: `/specs/commonparameters.yaml#/components/parameters/top`
+      $ref: '/specs/commonparameters.yaml#/components/parameters/top'
  ```
 
 For the above definition, located at https://example.org/specs/openapi.yaml, the following URLs are valid:

@@ -33,11 +33,11 @@ paths:
         '200':
           description: Ok
     put:
-      response:
+      responses:
         '200':
           description: Ok
     delete:  
-      response:
+      responses:
         '200':
           description: Ok
 ```

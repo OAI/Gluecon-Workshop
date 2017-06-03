@@ -45,7 +45,7 @@ info:
 paths:
   /opinions:
     post:
-      requestbody:
+      requestBody:
         description: 
         required: true
         content:

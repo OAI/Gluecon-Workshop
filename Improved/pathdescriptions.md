@@ -15,25 +15,26 @@ paths:
     get:
       responses:
         '200':
-          summary: List of speakers
+          description: List of speakers
           content: 
             text/plain: {}
             application/vnd.collection+json: {}
     post:
-      summary: Add a new speaker
       description: |- 
         Use a `application/x-www-urlencoded-form` to send speaker related information
       responses:
         '201':
-          summary: Acknowledge creation of a new speaker resource
+          description: Acknowledge creation of a new speaker resource
           headers:
-            Location: 
-              type: string
-              format: uri
+            Location:
+              schema: 
+                type: string
+                format: uri
     delete:
       responses:
         '204':
-          summary: Acknowledge successful deleted
+          description: Acknowledge successful deleted
+          
 ```
 
 

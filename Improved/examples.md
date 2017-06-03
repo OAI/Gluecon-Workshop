@@ -39,7 +39,7 @@ paths:
                   summary: List of names
                   value: "<Users><User name='Bob'/><User name='Diane'/><User name='Mary'/><User name='Bill'/></Users>"
                 empty:
-                  summmary: Empty list
+                  summary: Empty list
                   value: "<Users/>"
             'text/plain':
               examples:
@@ -63,21 +63,22 @@ paths:
     get:
       responses:
         '200':
-          application/json: 
-            schema:
-              $ref: '#/components/schemas/Pet'
-            examples:
-              dog:
-                summary: An example of a dog with a cat's name
-                value:
-                  name: Puma
-                  petType: Dog
-                  color: Black
-                  gender: Female
-                  breed: Mixed
-              frog:
-                $ref: '#/components/examples/frog-example'
-              cat:
-                summary: An example of a cat
-                externalValue: '/examples/cat.json'
+          content:
+            application/json: 
+              schema:
+                $ref: '#/components/schemas/Pet'
+              examples:
+                dog:
+                  summary: An example of a dog with a cat's name
+                  value:
+                    name: Puma
+                    petType: Dog
+                    color: Black
+                    gender: Female
+                    breed: Mixed
+                frog:
+                  $ref: '#/components/examples/frog-example'
+                cat:
+                  summary: An example of a cat
+                  externalValue: '/examples/cat.json'
 ```

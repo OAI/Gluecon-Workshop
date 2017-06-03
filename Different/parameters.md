@@ -15,6 +15,7 @@ paths:
   /customer/{id}:    # https://api.example.org/customer/72
     parameters:
     - name: id
+      in: path
       schema:
         type: int
         title: A unique identifier for the customer
@@ -31,6 +32,7 @@ paths:
   /customers:      # https://api.example.org/customers?ids=34,45,67
     parameters:
     - name: ids
+      in: query
       style: simple
       schema:
         type: array
@@ -49,9 +51,11 @@ paths:
   /{version}{rev}/customers:      # https://api.example.org/v2;rev=2/customers
     parameters:
     - name: version
+      in: path
       schema: 
         type: string
     - name: rev
+      in: path
       style: matrix
       schema:
         type: int
@@ -85,6 +89,7 @@ paths:
   /customers:      # https://api.example.org/customers?active=true&country=Canada&category=first
     parameters:
     - name: complexQuery
+      in: query
       content:
         application/sparql-query:
         schema:
