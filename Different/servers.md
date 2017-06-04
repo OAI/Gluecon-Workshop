@@ -14,7 +14,7 @@ basePath: /api
 host: www.acme.com
 schemes: ["https"]
 
-paths:
+paths: {}
 
 ```
 
@@ -49,7 +49,7 @@ servers:
       default: sample  #default is a required field
     version:
       default: v2
-paths:
+paths: {}
 ```
 
 When the server URL is a relative reference it should be resolved using the location of the OpenAPI definition as base URL.  When the servers property is absent, the base path of the API is assumed to be at the root of the host where the OpenAPI document is located.
