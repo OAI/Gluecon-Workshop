@@ -17,8 +17,9 @@ paths:
   /files/{filename}:
     put:
       parameters:
-        filename:
+        - name: filename
           in: path
+          required: true
           schema:
             type: string
       requestBody:
@@ -27,6 +28,9 @@ paths:
             schema:
               type: string
               format: binary
+      responses:
+        default:
+          description: OK
 ``` 
 
 Using the `type` as `string` and `format` as `binary` is the functional equivalent of the `file` type. 
