@@ -14,6 +14,7 @@ paths:
     get:
       responses:
         '200':
+          description: OK
           content:
             'application/json': 
               schema:
@@ -63,6 +64,7 @@ paths:
     get:
       responses:
         '200':
+          description: OK
           content:
             application/json: 
               schema:

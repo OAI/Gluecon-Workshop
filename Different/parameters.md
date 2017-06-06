@@ -16,6 +16,7 @@ paths:
     parameters:
     - name: id
       in: path
+      required: true
       schema:
         type: int
         title: A unique identifier for the customer
@@ -52,10 +53,12 @@ paths:
     parameters:
     - name: version
       in: path
+      required: true
       schema: 
         type: string
     - name: rev
       in: path
+      required: true
       style: matrix
       schema:
         type: int
@@ -72,6 +75,7 @@ paths:
   /customers:      # https://api.example.org/customers?active=true&country=Canada&category=first
     parameters:
     - name: filters
+      in: query
       style: form
       schema: 
         type: object
@@ -92,12 +96,12 @@ paths:
       in: query
       content:
         application/sparql-query:
-        schema:
-          type: string
-        example: |- 
-          SELECT ?title
-          WHERE
-          {
-            <http://example.org/book/book1> <http://purl.org/dc/elements/1.1/title> ?title .
-          }  
+          schema:
+            type: string
+          example: |-
+            SELECT ?title
+            WHERE
+            {
+              <http://example.org/book/book1> <http://purl.org/dc/elements/1.1/title> ?title .
+            }
 ```

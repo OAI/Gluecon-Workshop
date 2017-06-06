@@ -20,10 +20,11 @@ paths:
   '/users/{username}':
     get: 
       parameters:
-        name: username
-        in: path
-        schema:
-          type: string
+        - name: username
+          in: path
+          required: true
+          schema:
+            type: string
       responses:
         '200': 
           description: A representation of a user
@@ -51,10 +52,11 @@ paths:
     get: 
       operationId: getPhoto
       parameters:
-        name: userid
-        in: path
-        schema:
-          type: integer
+        - name: userid
+          in: path
+          required: true
+          schema:
+            type: integer
       responses:
         '200':
           description: A photo image
@@ -77,10 +79,11 @@ paths:
     get:
       operationId: getEmployeeById
       parameters:
-      - name: id
-        in: path
-        schema:
-          type: string
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
       responses:
         '200': 
           description: A representation of an employee

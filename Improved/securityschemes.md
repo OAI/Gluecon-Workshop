@@ -29,6 +29,7 @@ security:
 - bearer : []
 - oauth1 : []
 - digest : []
+paths: {}
 ```
 
 The `bearerFormat` property is only valid for scheme `bearer` and is primarily just used for documentation purposes and a client application should not be required to understand the internal structure of a bearer token.
@@ -65,4 +66,5 @@ components:
 security:
 - myOauth2: []
 - myOpenIdConnect: []
+paths: {}
 ```

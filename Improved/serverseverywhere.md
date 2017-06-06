@@ -5,7 +5,7 @@ OpenAPI V3 is not limited to describing resources on a single server.  By overri
 ```yaml
 openapi: 3.0.0
 info:
-  title:
+  title: Servers Everywhere
   version: 1.0.0
 servers:
 - url: https://api.example.com

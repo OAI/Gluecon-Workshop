@@ -80,10 +80,11 @@ paths:
     delete:
       operationId: cancelHookCallback
       parameters:
-        name: id
-        in: path
-        schema: 
-          type: string
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
       responses:
         '200':
           description: Successfully cancelled callback

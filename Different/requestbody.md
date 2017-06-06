@@ -16,7 +16,7 @@ The Request Body Object models the fact that HTTP treats request bodies signific
 ## OpenAPI V2
 
 ```yaml
-swagger: 2.0.0
+swagger: 2.0
 info:
   title: Example of request body in 2.0
   version: 1.0.0
@@ -27,13 +27,16 @@ paths:
       consumes:
        - text/plain
       parameters:
-        name: AnOpinion
-        in: body
-        schema:
-          type: string
-      examples:
-        text/plain:
-          I think the V3 way is cleaner
+        - name: AnOpinion
+          in: body
+          schema:
+            type: string
+          examples:
+            text/plain:
+              I think the V3 way is cleaner
+      responses:
+        '200':
+          description: OK
 ```
 In OpenAPI V3, each operation that is allowed to have a body, can include a `requestBody` object which contains a `content` object that describes the details of the payload.  The same `content` object is used to describe `responses` which makes the description of payloads more consistent.
 
@@ -46,7 +49,7 @@ paths:
   /opinions:
     post:
       requestBody:
-        description: 
+        description: ''
         required: true
         content:
           text/plain:
@@ -57,5 +60,8 @@ paths:
           application/json:
             schema:
               type: string
+      responses:
+        '200':
+          description: OK
 ```
 
