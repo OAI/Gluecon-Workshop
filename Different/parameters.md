@@ -18,7 +18,7 @@ paths:
       in: path
       required: true
       schema:
-        type: int
+        type: integer
         title: A unique identifier for the customer
 ```
 
@@ -38,7 +38,7 @@ paths:
       schema:
         type: array
         items:
-          type: int
+          type: integer
 ```
 
 The `style` parameter supports a number of URI formats described by the URI Template spec [rfc6570](https://tools.ietf.org/html/rfc6570).
@@ -61,7 +61,7 @@ paths:
       required: true
       style: matrix
       schema:
-        type: int
+        type: integer
 ```
 
 By passing a parameter that is a hash of values, query parameters can be described on the dynamically. 

@@ -9,14 +9,14 @@ Although in V2 request bodies were a parameter they had their own distinct set o
 - name property wasn't used
 - Media types of the request body parameter defined by a consumes that was either specified at the operation level or globally.
 
-Request bodies that were `application/x-www-urlencoded-form` were handled inconsistently than other media types.
+Request bodies that were `application/x-www-form-urlencoded` were handled inconsistently than other media types.
 
 The Request Body Object models the fact that HTTP treats request bodies significantly differently than URI parameters and header values.
 
 ## OpenAPI V2
 
 ```yaml
-swagger: 2.0
+swagger: '2.0'
 info:
   title: Example of request body in 2.0
   version: 1.0.0
@@ -31,9 +31,7 @@ paths:
           in: body
           schema:
             type: string
-          examples:
-            text/plain:
-              I think the V3 way is cleaner
+            example: I think the V3 way is cleaner
       responses:
         '200':
           description: OK

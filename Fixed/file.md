@@ -1,6 +1,6 @@
 # File uploads and downloads
 
-In OpenAPI V2 the Schema Object supported schemas with `type` equal to `file`.  This type is no longer suported as it is not an allowed type in JSON Schema.
+In OpenAPI V2 the Schema Object supported schemas with `type` equal to `file`.  This type is no longer supported as it is not an allowed type in JSON Schema.
 
 ## Motivation
 

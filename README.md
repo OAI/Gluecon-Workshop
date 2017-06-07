@@ -30,6 +30,6 @@
  
 ## Experiments
 - [Reusable groups](./Experiments/GroupRef.yml)
-- [Alternate schemas](./Experiements/alternateschemas.md)
+- [Alternate schemas](./Experiments/alternateschemas.md)
 - [Operation Versioning](./Experiments/OperationVersioning.yaml)
 - [Dynamic Enums](./Experiments/dynamicValues.yaml)

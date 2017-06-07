@@ -36,7 +36,7 @@ The `bearerFormat` property is only valid for scheme `bearer` and is primarily j
 
 ## OAuth2 Enhancements
 
-The updated OAuth2 mechanism now allows describing multiple flows and also provides support for discovering where to refresh tokens.  Also, where OAuth2 is described by an OpenId Connnect discovery mechanism, a link can now be provided as an alternative to describing all the metadata inline.
+The updated OAuth2 mechanism now allows describing multiple flows and also provides support for discovering where to refresh tokens.  Also, where OAuth2 is described by an OpenID Connect discovery mechanism, a link can now be provided as an alternative to describing all the metadata inline.
 
 ```yaml
 openapi: 3.0.0

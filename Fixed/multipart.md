@@ -1,6 +1,6 @@
 # Describing Forms and Multi-part Content
 
-In order to describe the structure of HTML Forms and multipart media types, OAS enables repurposing of the Schema Object to describe the structure.  The key-value pairs of a `application/x-www-urlencoded-form` are modelled as the properties of an `object`.
+In order to describe the structure of HTML Forms and multipart media types, OAS enables repurposing of the Schema Object to describe the structure.  The key-value pairs of a `application/x-www-form-urlencoded` are modelled as the properties of an `object`.
 
 ```yaml
 openapi: 3.0.0
@@ -12,7 +12,7 @@ paths:
     post:
       requestBody:
         content:
-          application/x-www-urlencoded-form:
+          application/x-www-form-urlencoded:
             schema:
               type: object
               properties:
@@ -82,4 +82,4 @@ paths:
           description: Success!
 ```
 
-The encoding object also enables declaring HTTP headers that are associated to the part, and can even affect serialization of `application/x-www-urlencoded-form` parameters.
+The encoding object also enables declaring HTTP headers that are associated to the part, and can even affect serialization of `application/x-www-form-urlencoded` parameters.
