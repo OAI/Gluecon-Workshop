@@ -5,7 +5,7 @@
 In V2 the server where the API was hosted was defined by three root level properties that were combined to form the API root URL.
 
 ```yaml
-swagger: 2.0
+swagger: '2.0'
 info:
   title: How server used to be identified
   version: 1.0.0
